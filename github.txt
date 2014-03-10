@@ -1,0 +1,92 @@
+GitHub
+
+https://github.com/
+http://git-scm.com/videos
+
+Git
+
+http://marklodato.github.com/visual-git-guide/index-en.html
+
+Education
+
+https://github.com/edu
+
+Create an account at GitHub.
+
+Read:
+
+http://help.github.com/win-set-up-git/
+
+http://www.ralfebert.de/blog/tools/git_screencast/
+
+http://scottr.org/presentations/git-in-5-minutes/
+
+---------------------------------------------------------------------
+
+After creating an account, create a remote repository.
+The following is what I did for ex_08.
+
+http://help.github.com/create-a-repo/
+
+Create a New Repository
+Project Name: ex_08
+Description:
+  Exercice 8 dans le cadre du cours initiation a la programmation.
+  
+Next steps:
+  cd dart/ex_08
+  git init
+  git status
+  git add .
+  git commit -m 'initial version'
+  git remote add origin https://github.com/alaincastonguay/ex08.git
+  git push -u origin master
+  
+
+----------------------------------------------------------------------
+
+Git with Git Bash
+
+Clone a remote repository into a local repository.
+
+cd dart/ex_08
+git clone https://github.com/alaincastonguay/ex08.git
+cd art_pen
+
+Read+Write:
+https://github.com/alaincastonguay/ex08.git
+
+Read only:
+git://github.com/alaincastonguay/ex08.git
+
+Get the latest changes from the remote repository
+
+git pull
+git pull origin master
+
+---------------------------------------------------------------------
+
+Work with a local repository
+
+cd git/dart/ex_08
+
+git add .
+
+git status
+
+git commit -m 'short description'
+
+git status
+
+git rm file
+
+git status
+
+git push
+git push origin master
+Enter passphrase for key ... :
+
+git status
+
+---------------------------------------------------------------------
+
